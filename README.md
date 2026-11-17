@@ -1,18 +1,19 @@
-## Getting Started
+#  PRACTICA 1 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### INTEGRANTES :
+- Valeria Jimenez
+- Juan Coronel
 
-## Folder Structure
+## Objetivo
+Identificar las diferentes comparaciones y resultados usando la implemntacion *Comparable* 
 
-The workspace contains two folders by default, where:
+## Tabla de relaciones entre C1 - C7
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- ID	-> Criterio	Descripción
+- C1	-> Código ascendente	-> Ordena por código de menor a mayor.
+- C2	-> Nombre y código	    -> Ordena por nombre y, si se repite, por código.
+- C3	-> Nota ascendente	-> Ordena las notas de menor a mayor.
+- C4	-> Nota y nombre	-> Ordena por nota de mayor a menor y luego por nombre.
+- C5	-> Edad y nombre	-> Ordena por edad de menor a mayor y luego por nombre de Z a A.
+- C6	-> Carrera, nota, nombre y código	-> Ordena por carrera, nota, nombre y código.
+- C7	-> Nota ajustada, nombre y código	-> Ordena por nota ajustada de mayor a menor y luego por nombre y código.
